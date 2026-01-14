@@ -48,21 +48,39 @@ Ce script automatise le processus d'installation de [DVWA (Damn Vulnerable Web A
 
 ## Installation / Instalación / Installation 🛠️
 
-1. Installation:
+1. Installation with systemd:
    ```bash
-   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh)"
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-systemd.sh)"
 
    ```
 
-1. Instalación:
+2. Installation with init-rc:
    ```bash
-   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh)"
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-initrc.sh)"
+
+   ```
+   
+1. Instalación con systemd:
+   ```bash
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-systemd.sh)"
 
    ```
 
-1. Installation:
+2. Instalación con init-rc:
    ```bash
-   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/IamCarron/DVWA-Script/main/Install-DVWA.sh)"
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-initrc.sh)"
+
+   ```
+
+1. Installation avec systemd:
+   ```bash
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-systemd.sh)"
+
+   ```
+
+2. Installation avec init-rc:
+   ```bash
+   sudo bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/floridatanft/DVWA-Script/main/Install-DVWA-initrc.sh)"
 
    ```
 
